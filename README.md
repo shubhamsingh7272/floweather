@@ -1,4 +1,4 @@
-# Skycast, a WeatherApp Assignment Submission for Floworks
+# Floweather
 
 > - View the assignment Hosted on Vercel: [visit Vercel Link](https://floweather-9tbart2q7-shubhamsingh7272s-projects.vercel.app/)
 > - GitHub Repository Link: [Open GitHub Repository](https://github.com/shubhamsingh7272/floweather)
