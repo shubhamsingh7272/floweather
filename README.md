@@ -1,7 +1,7 @@
 # Skycast, a WeatherApp Assignment Submission for Floworks
 
-> - View the assignment Hosted on Vercel: [visit Vercel Link](https://skycast-weather-app-delta.vercel.app/)
-> - GitHub Repository Link: [Open GitHub Repository](https://github.com/daminace325/Skycast-Weather-App)
+> - View the assignment Hosted on Vercel: [visit Vercel Link](https://floweather-9tbart2q7-shubhamsingh7272s-projects.vercel.app/)
+> - GitHub Repository Link: [Open GitHub Repository](https://github.com/shubhamsingh7272/floweather)
 
 ## Features
 
@@ -35,8 +35,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/daminace325/Skycast-Weather-App.git
-cd skycast
+git clone https://github.com/shubhamsingh7272/floweather
+cd floweather
 ```
 
 2. Install dependencies:
@@ -97,8 +97,8 @@ src/
 ## Contact
 
 For any queries or suggestions, please reach out:
-- Email: daminkhan325@gmail.com
-- GitHub: [daminace325](https://github.com/daminace325)
+- Email: shubham.s21@iiits.in
+- GitHub: [shubhamsingh7272]([https://github.com/shubhamsingh7272](https://github.com/shubhamsingh7272))
 
 ## License
 
