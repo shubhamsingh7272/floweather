@@ -1,6 +1,6 @@
 # Floweather
 
-> - View the assignment Hosted on Vercel: [visit Vercel Link](https://floweather-9tbart2q7-shubhamsingh7272s-projects.vercel.app/)
+> - View the assignment Hosted on Vercel: [visit Vercel Link](https://floweather-neon.vercel.app/)
 > - GitHub Repository Link: [Open GitHub Repository](https://github.com/shubhamsingh7272/floweather)
 
 ## Features
