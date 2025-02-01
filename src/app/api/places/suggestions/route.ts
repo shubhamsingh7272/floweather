@@ -9,7 +9,7 @@ export async function GET(request: Request) {
   }
 
   const API_KEY = process.env.OPENWEATHER_API_KEY;
-  const limit = 5; // Number of suggestions to return
+  const limit = 5; 
 
   try {
     const response = await fetch(
@@ -22,7 +22,7 @@ export async function GET(request: Request) {
 
     const data = await response.json();
     
-    // Format the response
+    
     const suggestions = data.map((place: any) => ({
       name: place.name,
       state: place.state,

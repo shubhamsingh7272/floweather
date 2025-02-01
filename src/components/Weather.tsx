@@ -91,7 +91,7 @@ export default function Weather() {
   };
 
   useEffect(() => {
-    // If city is in URL, fetch its weather
+  
     const cityParam = searchParams.get('city');
     if (cityParam) {
       setCity(cityParam);
@@ -99,10 +99,9 @@ export default function Weather() {
     }
   }, [searchParams]);
 
-  // Add useEffect to fetch location weather on mount
   useEffect(() => {
     getCurrentLocationWeather();
-  }, []); // Empty dependency array means this runs once on mount
+  }, []); 
 
   const fetchWeather = async (cityName: string) => {
     setLoading(true);
@@ -172,7 +171,7 @@ export default function Weather() {
       return;
     }
 
-    // Debounce the API call
+   
     searchTimeout.current = setTimeout(async () => {
       try {
         const response = await fetch(`/api/places/suggestions?search=${encodeURIComponent(searchText)}`);

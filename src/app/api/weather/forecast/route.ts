@@ -25,10 +25,10 @@ export async function GET(request: Request) {
       throw new Error(data.message || 'Failed to fetch forecast data');
     }
 
-    // Process and format the forecast data
+    
     const processedForecast = data.list
-      .filter((_: any, index: number) => index % 8 === 0) // Get one reading per day
-      .slice(0, 7) // Get 7 days
+      .filter((_: any, index: number) => index % 8 === 0) 
+      .slice(0, 7) 
       .map((day: any) => ({
         date: new Date(day.dt * 1000).toISOString(),
         temperature: Math.round(day.main.temp),
